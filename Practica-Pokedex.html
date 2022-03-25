@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pokedex LaunchX </title>
+    <link rel="stylesheet" href="Practica-Pokedex.css">
+    
+</head>
+<body>
+    <div class="box1">
+        <div class="fondoTitulo"></div>
+        <h1 class = "titulo">Mi Pokedex LaunchX</h1>
+        <div class = "sep"></div>
+    </div>
+    <div class="mainBox">
+        
+        <div class="pdexBox">
+            <div class="pokeDex"></div>
+            <!-- <img class="pokeDex" src="./assets/img/pokedex.png" > -->
+            <div class="imgBox">
+                <img class="imgStyle" src="./assets/img/Pokeball.png" alt="Pokemon" id="pokeImg" width="300px"><br>
+                </div>
+        </div>
+        
+        <div class="pokeName">
+            <input class="input_nombre" type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
+            <button  class="boton" onclick="fetchPokemon()">Buscar Pokemon</button><br>
+        </div>
+        
+        
+        
+        <h1 class="pokeIDstyle" id = "pokeID">Pokemon!</h1>
+        
+        <div class="datitos">
+            <h2 class="d2" id="pokeType">Tipo: </h2><br>
+            <h2 class="d2" id="pokeMasa">Peso: </h2><br>
+            <h2 class="d2" id="pokeAbilities">Habilidades: </h2><br><br>
+            <h2 class="d2" id= "pokeStats">Estadisticas: </h2><br><br><br><br><br>
+            
+        </div>
+        
+    </div>
+
+    
+    
+    
+</body>
+<footer><script src="./Practica-Pokedex.js"></script></footer>
+</html>

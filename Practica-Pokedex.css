@@ -1,0 +1,185 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#fec600;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div{
+    height: 800px;
+}
+
+
+.boton {
+    background-color:#fec600;
+    color:black;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+    width:150px;
+    height:40px;
+    padding: 5px;
+}
+
+.boton:hover {
+    background: rgb(5, 9, 221);
+    color:white;
+}
+.input_nombre{
+    font-size: 13px;
+    font-weight: bolder;
+    color:black;
+    background-color: rgb(107, 219, 73);
+    padding: 5px;
+}
+
+
+.box1{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    text-align: center;
+    
+}
+
+.fondoTitulo{
+    float: left;
+    width: 100%;
+    height:90px;
+    background-image: url('./assets/img/pikachu-wallpapers_header.jpg');
+    background-color: #fec600;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    position: absolute;
+    top:0%;
+    bottom:15%;
+    left:0%;
+    padding: 10px;
+}
+
+.titulo{
+    float: left;
+    text-align: center;
+    object-position: center;
+    position: absolute;
+    top:5%;
+    left:35%;
+}
+.sep{
+    
+    width: 100%;
+    height:20px;
+    background-color: #070707;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    position: absolute;
+    top:90%;
+    left:0%;
+}
+
+
+.mainBox{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top:100px;
+    left:0px;
+    text-align: center;
+    
+}
+/* .pokeDex{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 150%;
+    object-fit: contain;
+    overflow: hidden;
+    position: absolute;
+    top:10%;
+    left:0%;
+} */
+
+.pokeDex{
+    float: left;
+    width: 100%;
+    height:900px;
+    background-image: url('./assets/img/pokedex.png');
+    background-color: #fec600;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top:10%;
+    left:0%;
+    padding: 10px;
+}
+
+.pokeName {
+    float: left;
+    width: 12%;
+    height: auto;
+    overflow: hidden;
+    background-color: red; 
+    object-fit: contain;
+    position: absolute;
+    top:83%;
+    left:28%;
+}
+
+.imgBox{
+    float: left;
+    width: 20%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top:36%;
+    left:28%;
+}
+.imgStyle{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0);
+} 
+
+.pokeIDstyle {
+    float: left;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-size: 15px;
+    width: 12%;
+    height:auto;
+    background-color: rgba(255, 255, 255, 0.001);
+    object-fit: contain;
+    position: absolute;
+    top:65.5%;
+    left:34.5%;
+}
+
+.datitos {
+    float: left;
+    width: 30%;
+    height:auto;
+    background-color: rgba(255, 255, 255, 0.001);
+    position: absolute;
+    top:36%;
+    left:55%;
+}
+
+.d2{
+    text-align: left;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.001);
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    
+}
